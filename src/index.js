@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ limit: "10mb", extended: true })); // Handle URL
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chatapp-seven-alpha.vercel.app/",
     credentials: true,
   })
 );
